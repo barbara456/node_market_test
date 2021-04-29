@@ -9,7 +9,8 @@ var pool = mysql.createPool({
 });
 
 
-
+// 目前是使用声明类，在类的方法中使用poo.query方法
+// 以后尝试使用async await方法写这个query
 class Mysql {
     constructor() {
 
